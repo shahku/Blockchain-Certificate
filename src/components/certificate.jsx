@@ -45,7 +45,7 @@ class Certificate extends Component {
             
             onClick={(e) => {
               e.preventDefault();
-              window.location.href='http://hms.myddns.me:3000/verify';
+              window.open("http://hms.myddns.me:3000/verify","_blank")
               }}
           >
             Verify here
